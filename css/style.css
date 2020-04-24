@@ -1,0 +1,215 @@
+*{
+  padding: 0;
+  margin:0;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Lora";
+}
+
+
+p{
+  font-family: "Roboto";
+}
+
+/* nav section */
+.navbar-brand img{
+  width: 100px;
+  height: auto;
+  margin-left:  70px;
+}
+
+#nav ul li{
+  font-size: 1rem;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Lora"
+}
+
+.navbar{
+  background-image: linear-gradient(to right,#57aef7,#f2efc9);
+}
+
+#nav ul li a{
+  color: #000;
+  float: right;
+  text-align: left;
+}
+
+/* banner section */
+#banner{
+  background-image: linear-gradient(to right,#57aef7,#f2efc9);
+  overflow: hidden;
+}
+
+#banner .row img{
+  width: 100%;
+  margin-left: 20px;
+}
+#banner img{
+  width: 100%;
+}
+
+#banner .row,#sit .row{
+  padding:30px 80px  ;
+}
+
+#banner .row h1{
+  color: #fff;
+}
+
+#banner .row p{
+  color: #fff;
+  line-height: 2;
+  text-align: justify;
+}
+
+/*sit section*/
+#sit{
+  overflow: hidden;
+}
+
+#sit img{
+  width: 80%;
+}
+
+#sit .row p{
+  line-height: 2;
+  text-align: justify;
+}
+
+#sit .row h1{
+  padding-top: 40px;
+}
+
+
+
+/* product */
+.card-body .img-resize{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+
+#product h1{
+  text-align: center;
+}
+
+#product{
+  background-color: #fff;
+}
+
+/*tran*/
+
+#tran{
+ padding:30px  0 ;
+
+}
+
+.section-1{
+  background: url(../images/cloud.jpg);
+  height: auto;
+  width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+  padding: 5% 15%;
+  
+}
+.features{
+position:relative;
+}
+
+.features h3{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.features p{
+  color: #8f8f8f;
+}
+
+.features-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  color: #30475e;
+}
+
+/*form*/
+.form-image{
+  background: url("../images/computer.jpg");
+  height: 550px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.btnform {
+  background-color: #24a0ed ;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.8;
+  border-radius: 7px;
+}
+
+.btnform:hover {
+  opacity: 1;
+}
+
+input[type=text],input[type=name], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=name]:focus,input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.containerform {
+  position: absolute;
+  right: 0;
+  margin: 40px;
+  width: 40%;
+  padding: 16px;
+  background-color: white;
+  border-radius: 12px;
+}
+
+#form{
+  margin-top:  40px;
+}
+
+@media only screen and (max-width: 600px) {
+   .containerform{
+    width: 70%;
+    
+    margin: 10px;
+  }
+}
+
+/*footer*/
+#footer{
+  padding: 2%;
+  text-align: center;
+  color: #24a0ed ;
+
+}
+.fab-icon{
+  margin: 10px;
+  color: #24a0ed ;
+}
+
